@@ -1,0 +1,106 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: indianred;
+  color: white; 
+}
+
+h1{
+  font-family: verdana, arial, sans-serif;
+}
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  color: tomato;
+  
+}
+
+
+#gameButtonArea > button {
+  width:100px;
+  height:200px;
+  margin:-3px;
+}
+
+/*
+#blackKeys > button {
+  width:40px;
+  height:130px;
+  margin:-2px;
+}
+*/
+
+.hidden {
+  display: none
+}
+
+/* to make the keys light up when user clicks or when it has the CSS class "lit" in its class list*/
+
+#button2 {
+  background: black
+}
+
+#button4 {
+  background: black
+}
+
+#button6 {
+  background: black
+}
+
+
+
+/* so when button1 is clicked on = active (pseudoclass) or gets assigned the "lit" class to its HTML element
+similar to hidden for stopbtn, then it displays white background*/
+
+#button1:active, #button1.lit {
+  background:linen
+}
+
+#button2:active, #button2.lit {
+  background:cornsilk
+}
+
+#button3:active, #button3.lit {
+  background:mintcream
+}
+
+#button4:active, #button4.lit {
+  background:lavenderblush
+}
+
+#button5:active, #button5.lit {
+  background:aliceblue
+}
+
+#button6:active, #button6.lit {
+  background:lavender
+}
+
+#button7:active, #button7.lit {
+  background:lightcyan
+}
+
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
