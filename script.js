@@ -5,12 +5,11 @@
 const clueHoldTime = 1000; //how long to hold each clue's light/sound
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
-// ^ why do we need this
+
 
 // Global Variables 
-// do I need to add to array?
 var pattern = [1, 3, 2, 4, 3, 5, 6, 7, 2, 1];
-var progress = 0;
+var progress = 0; // position in pattern array
 var gamePlaying = false;
 var volume = 0.5; // must be between 0.0 and 1.0
 var tonePlaying = false;
@@ -106,7 +105,7 @@ function playSingleClue(btn){
     lightButton(btn);
     playTone(btn,clueHoldTime);
     setTimeout(clearButton,clueHoldTime,btn); // built-in fn for future call
-    // notice that we don't include an arguement list in parantheses??
+    // notice that we don't include an arguement list in parantheses
   }
 }
 
