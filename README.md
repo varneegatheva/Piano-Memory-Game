@@ -61,10 +61,6 @@ https://www.w3schools.com/cssref/css_colors.asp
 
 
 
-## Interview Recording URL Link
-
-[https://youtu.be/X0PyI6FXOhY](your-link-here)
-
 
 ## License
 
