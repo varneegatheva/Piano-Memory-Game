@@ -6,7 +6,7 @@ Submitted by: Varneega Theva
 
 Time spent: 6 hours spent in total
 
-Link to project: https://glitch.com/edit/#!/polyester-vigorous-slope
+Link to project: https://polyester-vigorous-slope.glitch.me
 
 ## Required Functionality
 
